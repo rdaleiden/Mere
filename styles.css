@@ -1,9 +1,15 @@
+
+
 body {
-  font-family: "Helvetica", sans-serif;
+background-color: #e3dbd8;
+font-family: gravesend-sans, sans-serif;
+font-weight: 500;
+font-style: normal;
+
 }
 
-h2 {
-  color: #7A0019;
+h1 {
+  color: ##87817f;
 }
 
 #contact {
