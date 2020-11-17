@@ -1,4 +1,5 @@
 
+img { max-width: 100%; height: auto; }
 
 body {
 background-color: #e3dbd8;
@@ -10,9 +11,22 @@ font-style: normal;
 
 h1 {
   color: ##87817f;
+  text-align: center;
+  font-size: 72px;
 }
 
 #contact {
   background-color: #FFDE7A;
   padding: 2%;
+}
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
 }
